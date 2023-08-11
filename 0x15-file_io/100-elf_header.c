@@ -43,7 +43,7 @@ void check_elf(unsigned char *e_ident)
 /**
  * print_magic - This function rints the magic numbers of an ELF header.
  * @e_ident: this is a pointer to array containing ELF magic numbers.
- * 
+ *
  * Description: Magic usualy seperayed with by spaces.
  */
 void print_magic(unsigned char *e_ident)
@@ -114,7 +114,7 @@ void print_data(unsigned char *e_ident)
 /**
  *  * print_version - thi will print the version of the ELF header.
  *   * @e_ident: this points to the array that contains the ELF version.
- *    */
+ */
 void print_version(unsigned char *e_ident)
 {
 	 printf(" Version: %d",
